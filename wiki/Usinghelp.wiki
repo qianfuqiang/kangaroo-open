@@ -5,7 +5,7 @@
   
 
 
-= kangaroo =
+= 项目 kangaroo =
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
@@ -14,4 +14,11 @@ Add your content here.  Format your content with:
 
 
 
-= videoEngine =
+= 项目 videoEngine =
+
+ 修改red5-common.xml 文件中的bean 为kangaroo 项目flv视频 存放路径
+
+   <bean id="streamFilenameGenerator" class="com.shshilan.red5.CustomFilenameGenerator">
+		<property name="recordPath" value="E:\\test\"/>
+        <property name="playbackPath" value="E:\\test\"/>
+	</bean>
