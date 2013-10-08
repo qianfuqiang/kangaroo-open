@@ -1,0 +1,5 @@
+1. 进入“用户中心”   kangaroo/user/center/my.do
+2. 创建新课程，填写相关信息 保存
+3. 进入编辑课程，如：/kangaroo/user/designcourse/modify.do?id=4028483b4153eb1c0141542514ea0023
+4. 添加课时，上传课时视频，格式flv 
+5. 进入 课程详细   如： kangaroo/course/detail/4028483b4153eb1c0141542514ea0023.do  点播刚刚上传的课时。
