@@ -7,12 +7,11 @@
 
 = 项目 kangaroo =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * 修改application.properties 数据库配置和视频上传路径
+  * 默认帐号 admin/admin
+  * 
 
-
+ 
 
 = 项目 videoEngine =
 
@@ -22,3 +21,8 @@ Add your content here.  Format your content with:
 		<property name="recordPath" value="E:\\test\"/>
         <property name="playbackPath" value="E:\\test\"/>
 	</bean>
+
+
+= tomcat 部署 =
+  
+  新手将kangaroo 和 videoEngine同时部署的同个tomcat下面。
