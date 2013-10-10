@@ -43,7 +43,7 @@
         <property name="connectors">
             <list>
                 <bean class="java.net.InetSocketAddress">
-                    <constructor-arg index="0" type="java.lang.String" value="127.0.0.1" />  
+                    <constructor-arg index="0" type="java.lang.String" value="0.0.0.0" />  
                     <constructor-arg index="1" type="int" value="1935" />  
                 </bean>
                 <!-- You can now add additional ports and ip addresses
